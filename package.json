@@ -24,10 +24,5 @@
     "grunt-browserify": "^5.0.0",
     "mocha": "^2.4.5",
     "expect.js": "^0.3.1"
-  },
-  "scripts": {
-    "preinstall": "npm install --ignore-scripts",
-    "postinstall" : "grunt browserify",
-    "test": "grunt test"
   }
 }
